@@ -68,6 +68,11 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
+  max-width:  500px;
+  margin: 20px 0;
+  gap: 10 px;
+  text-align: center;
+
 }
 
 label {
@@ -101,7 +106,7 @@ input:focus, select:focus, textarea:focus {
 button {
   margin-top: 20px;
   padding: 12px;
-  background: #007BFF;
+  background: #1f262c;
   color: white;
   border: none;
   border-radius: 5px;
