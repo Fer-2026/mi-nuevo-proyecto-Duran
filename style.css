@@ -1,0 +1,128 @@
+/* Reset * box-sizing */
+*, *::before, *::after { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align:center;
+}
+
+header{
+    background: #182A4A;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+h2{
+    color: #182A4A;
+    margin-top: 20px;
+
+}
+nav a{
+    color: #ffffff;
+    text-align: center;
+}
+
+.canciones a{
+    display: block;
+    font-size: 18px;
+    margin: 8px 0;
+    color: black;
+}   
+nav a::before{
+    content: "▶ ";
+    color: green;
+    font-size: 16px;
+    margin-right: 6px;
+}
+img{
+    width: 250px;
+    height: 250;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+main {
+    max-width: 600px;
+    margin:auto;
+    background: white;
+    padding: 0;
+    border-radius: 10px;
+}
+footer{
+    background: #182A4A;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}

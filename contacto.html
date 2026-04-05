@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css"
+    <title>Mi Primer Sitio Web</title>
+</head>
+
+<body>
+    <header>
+        <h1>Fernanda Duran</h1>
+        <p>Estudiante de Tecnicatura en Programación y Análisis de Sistemas</p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="index.html#formacion">Formacion</a></li>
+                <li><a href="index.html#proyectos">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+<section id="contacto" tabindex="-1" aria-labelledby="titulo-contacto">
+    <h2 id="titulo-contacto">Formulario de Contacto</h2>
+    <form id="formContacto" novalidate>
+      <label for="nombre">Nombre *</label>
+    <input type="text" id="nombre" name="nombre" required minlength="3" placeholder="Tu nombre" />
+
+      <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required placeholder="tu@email.com" />
+
+      <label for="telefono">Teléfono *</label>
+    <input type="tel" id="telefono" name="telefono" required placeholder="1234567890" />
+
+      <label for="asunto">Asunto *</label>
+    <select id="asunto" name="asunto" required>
+        <option value="">-- Selecciona --</option>
+        <option value="consulta">Consulta</option>
+        <option value="soporte">Soporte</option>
+        <option value="reclamo">Reclamo</option>
+    </select>
+
+      <label for="mensaje">Mensaje *</label>
+    <textarea id="mensaje" name="mensaje" required minlength="10" placeholder="Escribí tu mensaje..."></textarea>
+
+    <div class="checkbox">
+        <input type="checkbox" id="terminos" name="terminos" required />
+        <label for="terminos">Acepto los términos y condiciones</label>
+    </div>
+
+    <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<section id="proyectos" tabindex="-1" aria-labelledby="titulo-proyectos">
+    <h2 id="titulo-proyectos">Mis Proyectos</h2>
+    <ul>
+    <li>Proyecto 1: Mi sitio web</li>
+    <li>Proyecto 2: Mini app con HTML5 y CSS</li>
+    </ul>
+</section>
+
+<footer>
+<p>Fernanda Duran - 2026</p>
+</footer>
